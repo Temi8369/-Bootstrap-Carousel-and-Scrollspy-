@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Jungle Explorers Let's Go!</title>
+        
+        <link 
+        href="https://maxcdn.boostrapcdn.com/boostrap/4.3.1/css/boostrap.min.css">
+        <style>
+            body {
+                background-image: linear-gradient(yellow,gold,yellow,lightblue,yellowgreen,lightgreen,green,darkgreen,green,green,green);
+                position: relative;
+            }
+            .jungle-slide {
+                height: 250px;
+                width: 500px;
+                text-align: center;
+                padding-top: 75px;
+                padding-bottom: 75px;
+                font-size: 50;
+                color: aliceblue;
+            }
+            .slide-rainforest {
+                background-color: forestgreen;
+            }
+            .slide-river {
+                background-color: aquamarine;
+            }
+            .slide-night {
+                background-color: rgb(1, 1, 46);
+            }
+            .section {
+                padding: 70px 20px 20px 70px;
+                min-height: 250px;
+            }
+            .image {
+                height: 200px;
+                width: 200px;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <h1>LET'S EXPLORE!!!</h1>
+        <div id="jungleCarousel" class="carousel slide" 
+        data-ride="carousel">
+            
+        <ol class="carousel-indicators">
+
+            <li data-targer="#jugleCarousel" data-slide-to="0"
+             class="active"></li>
+
+            <li data-targer="#jugleCarousel" data-slide-to="1">
+            </li>
+
+            <li data-targer="#jugleCarousel" data-slide-to="2"
+            ></li>
+
+        </ol>
+
+        <div class="carousel-inner">
+            <div class="carousel-item jungle-slide slide-rainforest">
+                <img class="image"  src="jungle.jpg">
+                🌳🌳🌳 rainforest adventure 🌳🌳🌳
+            </div>
+
+            <div class="carousel-item jungle-slide slide-river">
+                <img class="image"  src="river.jpg">
+                🏞️🐟🐊let's ride the currents🐊🐟🏞️
+            </div>
+
+            <div class="carousel-item jungle-slide slide-night">
+                <img class="image"  src="night time in jungle.jpg">
+                🦉🌙let's dicover the mystery of the night🌙🦉
+            </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#jungleCarousel"
+         data-slide="prev">
+            <span class="carousel-control-next-icon">
+
+            </span>
+        </a>
+
+        </div>
+
+        <nav id="jungleNav" class="navbar navbar-expand-smnavbar-dark
+         bg-dark sticky-top">
+
+            <span class="navbar-brand">
+                🌳 Jungle Explorer
+            </span>
+
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#rainforest">
+                        Rainforest
+                    </a>
+                </li>
+
+               <li class="nav-item">
+                    <a class="nav-link" href="#river">
+                        River
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#night">
+                        Night Safari
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="container">
+
+            <div id="rainforest" class="section">
+                <h2>Rainforest Adventure</h2>
+                <p>Walk through the tall trees and see all the 
+                    wonderful creatures that live here.</p>
+            </div>
+
+            <div id="river" class="section">
+                <h2>The Jungles river journey</h2>
+                <p>follow the river and it's currents to see many fasinating
+                    water animals like crocodiles who rule the rivers.
+                </p>
+            </div>
+
+            <div id="night" class="section">
+                <h2>Night Safari/h2>
+                <p>After sunset set out to see the mysteries the 
+                    Jungle shows at night.
+                </p>
+
+            </div>
+
+        </div>
+
+        <script src="https://maxcdn.boostrapcdn.com/boostrap/4.3.1/js/boostrap.min.js">
+
+        </script>
+
+    </body>
+</html>
